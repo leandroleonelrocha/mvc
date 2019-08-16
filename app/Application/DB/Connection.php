@@ -1,5 +1,5 @@
 <?php
-namespace DaVinci\DB;
+namespace Application\DB;
 
 use PDO;
 
@@ -32,10 +32,10 @@ class Connection
         // es como accedemos a las propiedades estáticas.
         if(self::$db === null) {
             // Definimos los parámetros de la conexión.
-            $db_host = "localhost";
-            $db_user = "root";
-            $db_pass = "";
-            $db_base = "prog3";
+            $db_host = env('DB_HOST');
+            $db_user = env('DB_USERNAME');
+            $db_pass = env('DB_PASSWORD');
+            $db_base = env('DB_DATABASE');
             $db_charset = "utf8mb4"; // Este es el UTF-8 posta
 
             $db_dsn = "mysql:host={$db_host};dbname={$db_base};charset={$db_charset}";

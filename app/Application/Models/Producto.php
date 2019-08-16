@@ -1,7 +1,7 @@
 <?php
-namespace DaVinci\Models;
+namespace Application\Models;
 
-use DaVinci\DB\Connection;
+use Application\DB\Connection;
 use PDO;
 
 class Producto extends Modelo

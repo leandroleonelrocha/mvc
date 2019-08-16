@@ -1,13 +1,13 @@
 <?php
-namespace DaVinci\Controllers;
+namespace Application\Controllers;
 
 
-use DaVinci\Auth\Auth;
-use DaVinci\Core\App;
-use DaVinci\Core\View;
-use DaVinci\Models\Usuario;
-use DaVinci\Storage\Session;
-use DaVinci\Validation\Validator;
+use Application\Auth\Auth;
+use Application\Core\App;
+use Application\Core\View;
+use Application\Models\Usuario;
+use Application\Storage\Session;
+use Application\Validation\Validator;
 
 class AuthController extends BaseController
 {

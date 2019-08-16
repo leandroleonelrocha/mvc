@@ -1,6 +1,6 @@
 <?php
 
-namespace DaVinci\Storage;
+namespace Application\Storage;
 
 class Session
 {

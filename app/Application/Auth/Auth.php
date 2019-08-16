@@ -1,5 +1,5 @@
 <?php
-namespace DaVinci\Auth;
+namespace Application\Auth;
 
 /*
 Esta clase maneja la autenticación, y solo la 
@@ -8,8 +8,8 @@ Conoce de la clase Usuario, ya que es la que usa para
 tratar de loguear, pero NO sabe nada de cómo trabaja
 por dentro (ej: desconoce la tabla usuarios).
 */
-use DaVinci\Auth\Contracts\Autenticable;
-use DaVinci\Storage\Session;
+use Application\Auth\Contracts\Autenticable;
+use Application\Storage\Session;
 
 class Auth
 {

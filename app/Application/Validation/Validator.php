@@ -1,5 +1,5 @@
 <?php
-namespace DaVinci\Validation;
+namespace Application\Validation;
 
 /**
  * Clase para validar datos.

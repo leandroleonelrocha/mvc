@@ -9,7 +9,7 @@
  * Para esto, vamos a crear una clase Route cuya
  * función sea la de registrar y administrar las rutas.
  */
-use DaVinci\Core\Route;
+use Application\Core\Route;
 
 // Registramos la primer ruta! :D
 // Recibe 3 parámetros:

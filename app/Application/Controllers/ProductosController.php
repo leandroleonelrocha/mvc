@@ -1,16 +1,16 @@
 <?php
-namespace DaVinci\Controllers;
+namespace Application\Controllers;
 
-use DaVinci\Auth\Auth;
-use DaVinci\Core\App;
-use DaVinci\Core\Route;
-use DaVinci\Core\View;
-use DaVinci\Helpers\StringHelper;
-use DaVinci\Models\Caracteristica;
-use DaVinci\Models\Producto;
-use DaVinci\Storage\FileUpload;
-use DaVinci\Storage\Session;
-use DaVinci\Validation\Validator;
+use Application\Auth\Auth;
+use Application\Core\App;
+use Application\Core\Route;
+use Application\Core\View;
+use Application\Helpers\StringHelper;
+use Application\Models\Caracteristica;
+use Application\Models\Producto;
+use Application\Storage\FileUpload;
+use Application\Storage\Session;
+use Application\Validation\Validator;
 
 class ProductosController extends BaseController
 {

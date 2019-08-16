@@ -1,10 +1,10 @@
 <?php
 
-namespace DaVinci\Controllers;
+namespace Application\Controllers;
 
-use DaVinci\Auth\Auth;
-use DaVinci\Core\App;
-use DaVinci\Core\View;
+use Application\Auth\Auth;
+use Application\Core\App;
+use Application\Core\View;
 
 class HomeController extends BaseController
 {

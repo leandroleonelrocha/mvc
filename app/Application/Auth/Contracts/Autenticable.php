@@ -1,5 +1,5 @@
 <?php
-namespace DaVinci\Auth\Contracts;
+namespace Application\Auth\Contracts;
 
 /**
  * Interfaz que define un contrato para que la clase

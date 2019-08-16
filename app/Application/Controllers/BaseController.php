@@ -1,12 +1,12 @@
 <?php
 
 
-namespace DaVinci\Controllers;
+namespace Application\Controllers;
 
 
-use DaVinci\Auth\Auth;
-use DaVinci\Core\App;
-use DaVinci\Storage\Session;
+use Application\Auth\Auth;
+use Application\Core\App;
+use Application\Storage\Session;
 
 class BaseController
 {

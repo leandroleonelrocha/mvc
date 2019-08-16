@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DaVinci\Models;
+namespace Application\Models;
 
 
 class Caracteristica extends Modelo

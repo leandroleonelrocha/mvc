@@ -1,6 +1,6 @@
 <?php
-use DaVinci\Core\App;
-use DaVinci\Models\Producto;
+use Application\Core\App;
+use Application\Models\Producto;
 
 // Indicamos utilizando phpDoc cuáles son las variables que esperamos
 // que esta vista reciba.

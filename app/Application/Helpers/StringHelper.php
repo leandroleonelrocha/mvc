@@ -1,6 +1,6 @@
 <?php
 
-namespace DaVinci\Helpers;
+namespace Application\Helpers;
 
 class StringHelper
 {

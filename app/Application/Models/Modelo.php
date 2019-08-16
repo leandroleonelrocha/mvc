@@ -28,9 +28,9 @@ $prod->getAll(); // Retorna todos los productos en un array.
 $prod->getByPk(5); // Carga el producto 5.
 $prod->create($datos); // Crea el producto con los $datos
 */
-namespace DaVinci\Models;
+namespace Application\Models;
 
-use DaVinci\DB\Connection;
+use Application\DB\Connection;
 use JsonSerializable;
 use PDO;
 

@@ -1,10 +1,10 @@
 <?php
-namespace DaVinci\Models;
+namespace Application\Models;
 
 // Agregamos que la clase Usuario implemente la interfaz
 // Autenticable.
-use DaVinci\Auth\Contracts\Autenticable;
-use DaVinci\DB\Connection;
+use Application\Auth\Contracts\Autenticable;
+use Application\DB\Connection;
 use PDO;
 
 class Usuario implements Autenticable

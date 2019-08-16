@@ -1,6 +1,6 @@
 <?php
 
-namespace DaVinci\Core;
+namespace Application\Core;
 
 /**
  * Class App
@@ -82,7 +82,7 @@ class App
 
         // $controllerName = "HomeController";
         // Le agregamos el namespace a la clase.
-        $controllerName = "\\DaVinci\\Controllers\\" . $controllerName;
+        $controllerName = "\\Application\\Controllers\\" . $controllerName;
         // Esto nos deja, ej:
         // \DaVinci\Controllers\HomeController
 
